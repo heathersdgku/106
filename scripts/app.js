@@ -6,5 +6,5 @@ function init(){
     console.log("hello world");
     sayHello();
 }
-
+//this something new
 window.onload = init;
