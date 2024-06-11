@@ -1,10 +1,14 @@
 function sayHello(){
     console.log("hello there");
 }
-//this something new
+
+function sayGoodbye(){
+    console.log("goodbye");
+}
 function init(){
     console.log("hello world");
     sayHello();
+    sayGoodbye();
 }
-//this something new
+
 window.onload = init;
