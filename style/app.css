@@ -1,0 +1,68 @@
+main {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #e6e6fa, #d8bfd8);
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#list {
+    flex: 1;
+    color: #333;
+    background: #f3f3f3;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form {
+    flex: 2;
+    color: #333;
+    background: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #6a5acd;
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+button, input[type="submit"] {
+    background: #6a5acd;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #8a7fd9;
+}
+
+input[type="text"], textarea, select, input[type="color"], input[type="datetime-local"], input[type="number"] {
+    background: #f3f3f3;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus, input[type="color"]:focus, input[type="datetime-local"]:focus, input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(106, 90, 205, 0.5);
+}
+
+.form-label {
+    color: #6a5acd;
+    font-weight: 600;
+}
